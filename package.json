@@ -1,15 +1,25 @@
 {
   "name": "ios7translucent",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Rebulid the iOS7 Translucent topbar in CSS using CSS Regions",
+  "main": "Gruntfile.js",
   "author": "Fabrice Weinberg",
   "license": "MIT",
-  "devDependencies": {
-    "grunt": "~0.4.1",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-autoprefixer": "~0.5.0",
+    "grunt-contrib-compass": "~0.7.0",
     "grunt-contrib-connect": "~0.5.0",
-    "load-grunt-tasks": "~0.1.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-compass": "~0.5.0",
-    "grunt-autoprefixer": "~0.3.0"
+    "load-grunt-tasks": "~0.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugenehp/ios7translucent-css.git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/eugenehp/ios7translucent-css/issues"
   }
 }
